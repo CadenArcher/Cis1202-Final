@@ -90,7 +90,7 @@ void GetFile(ProfileOne User1List[], ProfileTwo User2List[], int& HowManyVideos)
 
    
         fstream Videos;
-   
+    
             Videos.open("User1Videos.bin", ios::in | ios::out | ios::binary);
 
 
