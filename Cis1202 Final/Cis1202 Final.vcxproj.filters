@@ -18,12 +18,24 @@
     <ClCompile Include="Cis1202 Final.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="YoutubeFunctions.cpp">
+    <ClCompile Include="YoutubeClasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="YoutubeClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

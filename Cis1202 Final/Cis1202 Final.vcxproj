@@ -140,9 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Cis1202 Final.cpp" />
-    <ClCompile Include="YoutubeFunctions.cpp" />
+    <ClCompile Include="Profile2.cpp" />
+    <ClCompile Include="Profiles.cpp" />
+    <ClCompile Include="YoutubeClasses.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Profile2.h" />
+    <ClInclude Include="Profiles.h" />
     <ClInclude Include="YoutubeClasses.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
