@@ -27,4 +27,8 @@ void Youtube::VideoAndVideoInfo() {
 		<< "\nVideo Rating: " << ReturnVideoRating();
 }
 
+void Youtube::LaunchVideoUrl(int WhatVideoIsPlaying) {
 
+
+
+}

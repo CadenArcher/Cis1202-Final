@@ -8,5 +8,10 @@
 #include "Profiles.h"
 using namespace std;
 
-ProfileOne::ProfileOne(string VideoUrl, string VideoNames, int VideoRating) : Youtube(VideoUrl, VideoNames, VideoRating){}
+ProfileOne::ProfileOne(string VideoUrl, string VideoNames,string PeofileOneName, int VideoRating) : Youtube(VideoUrl, VideoNames, VideoRating), ProfileName(PeofileOneName){}
+
+
+string ProfileOne::ReturnProfileName() {
+	return ProfileName;
+}
 

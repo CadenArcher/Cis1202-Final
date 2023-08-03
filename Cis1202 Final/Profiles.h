@@ -16,8 +16,10 @@ private:
 
 
 public:
-	
-	ProfileOne(string, string, int);
+	ProfileOne() = default;
+	ProfileOne(string, string, string, int);
+	void DisplayVideo(int);
+	string ReturnProfileName();
 	
 
 };

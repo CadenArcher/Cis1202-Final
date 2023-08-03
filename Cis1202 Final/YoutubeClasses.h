@@ -14,10 +14,11 @@ private:
 	int Rating;
 
 public:
-
+	Youtube() = default;
 	Youtube(string, string, int);
 	int ReturnVideoRating();
 	string ReturnVideoName();
 	string ReturnVideoUrl();
 	void VideoAndVideoInfo();
+	void LaunchVideoUrl(int);
 };

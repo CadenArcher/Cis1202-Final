@@ -12,12 +12,12 @@ class ProfileTwo :public Youtube {
 private:
 
 
-	string UserName;
+	string ProfileName;
 
 public:
-	
-	ProfileTwo(string,string, int);
-	string ProfileName;
+	ProfileTwo() = default;
+	ProfileTwo(string, string, string, int);
+	string ReturnProfileName();
 
 
 };
