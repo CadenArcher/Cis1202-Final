@@ -153,7 +153,7 @@ void AddVideo(ProfileOne User1List[], ProfileTwo User2List[], int& HowManyUser1V
     Videos.write(Video.c_str(), VideoSize);
 
     Videos.write(reinterpret_cast<char*>(&NameSize), sizeof(NameSize));
-    Videos.write(ProfileName.c_str(), NameSize);
+    Videos.write(ProfileName.c_str(), NameSize); 
 
     Videos.write(reinterpret_cast<char*>(&Rating), sizeof(Rating));
     Videos.close();
