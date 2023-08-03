@@ -205,7 +205,7 @@ void GetFile(ProfileOne User1List[], ProfileTwo User2List[], int& HowManyUser1Vi
 
             Videos.close();
             UserName = 0;
-            Videos.open("User2Videos.bin", ios::in | ios::out | ios::binary);
+            Videos.open("User2Videos.bin", ios::in | ios::out | ios::binary); 
 
             
             while (Videos.read(reinterpret_cast<char*>(&size), sizeof(size))) {
